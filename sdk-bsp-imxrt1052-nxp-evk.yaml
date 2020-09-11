@@ -1,0 +1,107 @@
+board:
+  buy_url_cn: http://www.nxp.com/
+  buy_url_global: http://www.nxp.com/
+  debug_interface: JTAG
+  debugger: JTAG
+  description_en: i.MX RT1050 EVK is a development board based on ARM Cortex-M7 core officially launched by NXP. The highest frequency is 600MHz. The development board has abundant on-board resources and can give full play to the chip performance of RT1052.
+  description_zh: i.MX RT1050 EVK 是 NXP 官方推出的一款基于 ARM Cortex-M7 内核的开发板，最高主频为 600MHz，该开发板具有丰富的板载资源，可以充分发挥 RT1052 的芯片性能。
+  emulator_machine: ''
+  large_image: documents/images/board_large.png
+  name: IMXRT1052-NXP-EVK
+  price_cn: 588.00 CNY
+  price_global: 84.00 USD
+  sale_contact_cn: http://www.nxp.com/
+  sale_contact_global:  http://www.nxp.com/
+  small_image: documents/images/board_small.png
+  vendor: NXP
+  version: Rev.A
+chip:
+  chip_name: MIMXRT1052DVL6A
+  clock_source: HSE
+  device_vendor: NXP
+  family_name: MIMXRT1050
+  rx_name: PA10
+  series_name: MIMXRT1050
+  source_freq: ''
+  sub_series_name: MIMXRT1052
+  target_freq: '600000000'
+  tx_name: ''
+  uart_name: ''
+default_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .config.old
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - packages
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - rtthread.bin
+    - rtthread.elf
+    - rtthread.map
+    - SConscript
+    - SConstruct
+    - template.ewd
+    - template.ewp
+    - template.ewt
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+    - xip
+    source_path_offset: rtt_default_project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/Sconscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: 4.0.2
+    source_path_offset: ''
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: ''
+  project_type: rt-thread|@full|@4.0.2
+docs:
+- category: manual
+  file: documents/IMXRT系列BSP外设驱动使用教程.md
+  title: 外设驱动使用教程
+- category: manual
+  file: documents/IMXRT系列驱动介绍.md
+  title: 驱动介绍
+example_projects: []
+features:
+- MCU：MIMXRT1052DVL6A，主频 600MHz
+- 存储：256MB SDRAM、512MB Hyper FLASH
+- 运动传感器：FXOS8700CQ
+- LED
+- 常用接口：USB 转串口、SD 卡接口、以太网接口、LCD 接口、摄像头接口
+- 调试接口：标准 JTAG/SWD
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 0.1.0
+yaml_version: 1
