@@ -95,6 +95,13 @@ docs:
   title: 驱动介绍
 example_projects: []
 features:
+- "MCU: MIMXRT1052DVL6A, 600MHz"
+- "Memory: 256MB SDRAM、512MB Hyper FLASH"
+- "Sensor: FXOS8700CQ"
+- "LED"
+- "Interface: USB-Serial、SD Card、Etherbet、LCD、Camera"
+- "Debug: JTAG/SWD"
+features_zh:
 - MCU：MIMXRT1052DVL6A，主频 600MHz
 - 存储：256MB SDRAM、512MB Hyper FLASH
 - 运动传感器：FXOS8700CQ
@@ -104,4 +111,4 @@ features:
 pkg_type: Board_Support_Packages
 pkg_vendor: RealThread
 pkg_version: 0.1.0
-yaml_version: 1
+yaml_version: 2
