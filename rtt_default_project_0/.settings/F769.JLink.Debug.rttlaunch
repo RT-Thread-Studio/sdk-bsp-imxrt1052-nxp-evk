@@ -20,14 +20,14 @@
 <booleanAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.enableSwo" value="true"/>
 <intAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.firstResetSpeed" value="1000"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.firstResetType" value=""/>
-<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.flashDeviceName" value="STM32F769NI"/>
+<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.flashDeviceName" value="MIMXRT1052DVL6A"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbClientOtherCommands" value="set mem inaccessible-by-default off"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbClientOtherOptions" value=""/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbServerConnection" value="usb"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbServerConnectionAddress" value=""/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbServerDebugInterface" value="swd"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbServerDeviceEndianness" value="little"/>
-<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbServerDeviceName" value="STM32F769NI"/>
+<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbServerDeviceName" value="MIMXRT1052DVL6A"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbServerDeviceSpeed" value="auto"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbServerExecutable" value="${rtt_install_path}/repo/Extract/Debugger_Support_Packages/SEGGER/J-Link/6.80d/JLinkGDBServerCL.exe"/>
 <intAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.gdbServerGdbPortNumber" value="2331"/>

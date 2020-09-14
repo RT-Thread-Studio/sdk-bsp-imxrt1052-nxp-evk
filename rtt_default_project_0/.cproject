@@ -216,15 +216,6 @@
   <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders" />
   <storageModule moduleId="refreshScope" versionNumber="2">
     <configuration configurationName="Debug">
-      <resource resourceType="FOLDER" workspacePath="/imxrt1052-nxp-evk/.settings" />
-      <resource resourceType="FOLDER" workspacePath="/imxrt1052-nxp-evk/Debug" />
-      <resource resourceType="FOLDER" workspacePath="/imxrt1052-nxp-evk/applications" />
-      <resource resourceType="FOLDER" workspacePath="/imxrt1052-nxp-evk/build" />
-      <resource resourceType="PROJECT" workspacePath="/imxrt1052-nxp-evk" />
-      <resource resourceType="FOLDER" workspacePath="/imxrt1052-nxp-evk/libraries" />
-      <resource resourceType="FOLDER" workspacePath="/imxrt1052-nxp-evk/board" />
-      <resource resourceType="FOLDER" workspacePath="/imxrt1052-nxp-evk/figures" />
-      <resource resourceType="FOLDER" workspacePath="/imxrt1052-nxp-evk/xip" />
       <resource resourceType="PROJECT" workspacePath="/imxrt1052-nxp-evk" />
     </configuration>
   </storageModule>
